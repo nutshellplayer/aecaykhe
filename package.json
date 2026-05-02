@@ -1,0 +1,20 @@
+{
+  "name": "zeinhardes-afk-client",
+  "version": "1.0.0",
+  "description": "Zeinharde's AFK Client",
+  "author": "zeinharde",
+  "license": "GPL-3.0-only",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.22.0"
+  },
+  "keywords": [
+    "minecraft",
+    "afk",
+    "anti-afk"
+  ]
+}
