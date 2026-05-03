@@ -1,6 +1,6 @@
-# Zeinharde's AFK Client
+# Zeinharde's Minecraft AFK Client
 
-Zeinharde's AFK Client is a small Node.js script built with Mineflayer that connects to a Minecraft server and performs periodic micro-actions (jump + a tiny forward/back movement) to reduce the chance of being kicked for being AFK.
+Zeinharde's Minecraft AFK Client is a small Node.js script built with Mineflayer that connects to a Minecraft server and performs periodic micro-actions (jump + a tiny forward/back movement) to reduce the chance of being kicked for being AFK.
 
 ## What This Project Does
 
