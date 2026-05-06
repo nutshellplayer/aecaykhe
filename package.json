@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "mineflayer": "^4.22.0"
+    "mineflayer": "^4.37.1"
   },
   "keywords": [
     "minecraft",
