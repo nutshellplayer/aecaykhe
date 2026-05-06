@@ -1,0 +1,26 @@
+name: Minecraft AFK Bot
+
+on:
+  schedule:
+    # Chạy vào lúc 00:00 (giờ UTC) cứ mỗi 3 ngày một lần
+    - cron: '0 0 */3 * *'
+  workflow_dispatch: # Vẫn giữ dòng này để bạn có thể bấm nút chạy tay khi cần
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Start AFK Bot
+        # Lệnh timeout 10m sẽ tự động gửi tín hiệu ngắt (SIGINT) sau 10 phút
+        run: timeout 10m npm start || code=$?; if [ $code -eq 124 ]; then exit 0; else exit $code; fi
