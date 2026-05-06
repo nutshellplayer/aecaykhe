@@ -1,9 +1,9 @@
 {
-  "client_name": "Zeinharde's AFK Client",
-  "host": "mc.soulcraft.tc",
+  "client_name": "aecaykhe",
+  "host": "aecaykhe.mcsh.io",
   "port": 25565,
-  "username": "SausageKnight",
-  "version": "1.21.11",
+  "username": "aecaykhe",
+  "version": "26.1.2",
   "auth": "offline",
   "afk_interval": 30000
 }
