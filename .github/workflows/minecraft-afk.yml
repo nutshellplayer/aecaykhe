@@ -25,4 +25,4 @@ jobs:
       - name: Chạy Bot AFK trong 10 phút
         # Lệnh timeout 10m sẽ tự động ngắt lệnh npm start sau 10 phút
         # '|| true' để đảm bảo workflow không bị báo lỗi khi bị timeout ngắt
-        run: timeout 10m npm start || true
+        run: timeout 2m npm start || true
