@@ -1,11 +1,5 @@
 name: Minecraft AFK Bot
 
-on:
-  schedule:
-    # Chạy vào lúc 00:00 cứ mỗi 2 ngày một lần
-    - cron: '0 0 */2 * *'
-  workflow_dispatch: # Cho phép bạn bấm nút chạy thủ công nếu muốn
-
 jobs:
   afk-run:
     runs-on: ubuntu-latest
